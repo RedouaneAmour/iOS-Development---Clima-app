@@ -18,9 +18,14 @@ Light & Dark modes effects :
 ![Capture d’écran 2023-01-03 à 05 11 21](https://user-images.githubusercontent.com/74780897/210299118-a2839c5e-1fb3-46d6-8334-c7bb1ba767b9.png)
 
 How to make an API call : 
+
 ![Capture d’écran 2023-01-03 à 05 09 35](https://user-images.githubusercontent.com/74780897/210299026-ec5bb38e-8d26-4192-a4ed-13b8de401be8.png)
 
-Example of an API request model with the right units : https://api.openweathermap.org/data/2.5/weather?q=Bali&appid=YourAPPID&units=metric
+
+Example of an API request model with the right units : 
+
+https://api.openweathermap.org/data/2.5/weather?q=Bali&appid=YourAPPID&units=metric
+
 
 Here is an example of the JSON response given by OpenWeather API when I type a valid URL using my personal key : 
 
@@ -47,6 +52,7 @@ Here is an example of the JSON response given by OpenWeather API when I type a v
 
 *if you run the app within a physical device (iPhone) : 
 The app will first ask you authorization for allowing access to your current location : select the one option that best corresponds to your preferences.
+
 ![Capture d’écran 2023-01-03 à 04 42 00](https://user-images.githubusercontent.com/74780897/210297408-cfe829f3-7a4c-48bf-bb02-e9ed3c3b8bf9.png)
 
 Then, you can either select the current location button (represented by an arrow) to get the weather conditions at your current position or tap manually a city name in the UITextField search bar to get weather conditions in the desired city. When using the UITextField and once you're done typing the city name, make sure to press the return key button "Go" at the right bottom of the keyboard, to get the weather conditions. 
