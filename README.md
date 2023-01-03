@@ -6,10 +6,10 @@
 The purpose of the application is to display weather conditions (temperature, humidity, weather image) according to : 1) the current location of the user using GPS Data from the iPhone or 2) a specific city searching manually for its name using a UITextField. It is a dark-mode enabled application which makes https requests to the OpenWeather Web API to get a JSON-format response with different fields including the temperature, the city name and the humidity.
 
 Based on UIKit and the Storyboard, the app is composed of several UI elements : 
-- a location button. This button is linked to an IBAction called "locationPressed". When pressed, it gets the weather conditions at the current position.
-- a UITextField which enables the user to enter a cityname and get its current weather conditions
-- a temperature label to display the current temperature (°C) in the city or the current location
-- a humidity label to display the current humidity (%) in the city or the current location
+- a location button. This button is linked to an @IBAction called "locationPressed". When pressed, it gets the weather conditions at the current position.
+- a UITextField linked to an @IBOutlet which enables the user to enter a cityname and get its current weather conditions
+- a temperature label linked to an @IBOutlet to display the current temperature (°C) in the city or the current location
+- a humidity label also linked to an @IBOutlet to display the current humidity (%) in the city or the current location
 - a city name label to display the name of the city 
 
 Light & Dark modes effects : 
