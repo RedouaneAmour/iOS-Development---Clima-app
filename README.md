@@ -10,7 +10,7 @@ Based on UIKit and the Storyboard, the app is composed of several UI elements :
 - a UITextField linked to an @IBOutlet which enables the user to enter a cityname and get its current weather conditions
 - a temperature label linked to an @IBOutlet to display the current temperature (°C) in the city or the current location
 - a humidity label also linked to an @IBOutlet to display the current humidity (%) in the city or the current location
-- a city name label to display the name of the city 
+- a city name label linked to an @IBOutlet to display the name of the city 
 
 Light & Dark modes effects : 
 
