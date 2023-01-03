@@ -3,23 +3,32 @@
 
 #  Clima
 
-## Our Goal
+## My Goal
 
-It’s time to take our app development skills to the next level. We’re going to introduce you to the wonderful world of Application Programming Interfaces (APIs) to grab live data from the internet. If you’re dreaming of making that Twitter-powered stock trading app then you’re about add some serious tools to your toolbelt!
+The purpose of the application is to display weather conditions (temperature, humidity, weather image) according to : 1) the current location of the user using GPS Data from the iPhone or 2) a specific city searching manually for its name using a UITextField. It is a dark-mode enabled application which makes https requests to the OpenWeather Web API to get a JSON-format response with different fields including the temperature, the city name and the humidity.
+
+Therefore, based on UIKit and the Storyboard, the app is composed of several UI elements : 
+- a location button. This button is linked to an IBAction called "locationPressed". When pressed, it gets the weather conditions at the current position.
+- a UITextField which enables the user to enter a cityname and get its current weather conditions
+- a temperature label to display the current temperature (°C) in the city or the current location
+- a humidity label to display the current humidity (%) in the city or the current location
+- a city name label to display the name of the city 
+
+![Capture d’écran 2023-01-03 à 04 12 41](https://user-images.githubusercontent.com/74780897/210295729-a1de5ed6-761a-4bb2-a9f8-bdefbe5247d3.png)
 
 
-## What you will create
+Here is a general insight of the JSON response : 
 
-By the end of the module, you will have made a beautiful, dark-mode enabled weather app. You'll be able to check the weather for the current location based on the GPS data from the iPhone as well as by searching for a city manually. 
+![Capture d’écran 2023-01-03 à 04 23 18](https://user-images.githubusercontent.com/74780897/210296360-1954016e-ed64-494d-9877-cd4dc58cb63e.png)
 
-## What you will learn
+
+## What I learnt throughout this app :
 
 * How to create a dark-mode enabled app.
 * How to use vector images as image assets.
 * Learn to use the UITextField to get user input. 
-* Learn about the delegate pattern.
+* Learn about the delegate design pattern.
 * Swift protocols and extensions. 
-* Swift guard keyword. 
 * Swift computed properties.
 * Swift closures and completion handlers.
 * Learn to use URLSession to network and make HTTP requests.
@@ -49,6 +58,5 @@ switch conditionID {
         }
 ```
 
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
 
 ![End Banner](Documentation/readme-end-banner.png)
