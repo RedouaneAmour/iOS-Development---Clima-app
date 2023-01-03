@@ -19,7 +19,10 @@ Light & Dark modes effects :
 ![Capture d’écran 2023-01-03 à 04 59 56](https://user-images.githubusercontent.com/74780897/210298483-21961cfe-e4c5-4626-8e8f-6351b061a63c.png)
 
 
-API request : https://api.openweathermap.org/data/2.5/weather?q=Bali&appid=YourAPPID&units=metric
+How to make an API call : 
+![Capture d’écran 2023-01-03 à 05 09 35](https://user-images.githubusercontent.com/74780897/210299026-ec5bb38e-8d26-4192-a4ed-13b8de401be8.png)
+
+Example of an API request model with the right units : https://api.openweathermap.org/data/2.5/weather?q=Bali&appid=YourAPPID&units=metric
 
 Here is an example of the JSON response given by OpenWeather API when I type a valid URL using my personal key : 
 
