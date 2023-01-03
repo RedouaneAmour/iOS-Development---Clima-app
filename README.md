@@ -1,6 +1,4 @@
 
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
-
 #  Clima
 
 ## My Goal
@@ -20,6 +18,7 @@ Based on UIKit and the Storyboard, the app is composed of several UI elements :
 Here is a general insight of the JSON response : 
 
 ![Capture d’écran 2023-01-03 à 04 23 18](https://user-images.githubusercontent.com/74780897/210296360-1954016e-ed64-494d-9877-cd4dc58cb63e.png)
+![Capture d’écran 2023-01-03 à 04 59 56](https://user-images.githubusercontent.com/74780897/210298483-21961cfe-e4c5-4626-8e8f-6351b061a63c.png)
 
 
 ## What I learnt throughout this app :
