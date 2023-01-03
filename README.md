@@ -12,6 +12,7 @@ Based on UIKit and the Storyboard, the app is composed of several UI elements :
 - a humidity label also linked to an @IBOutlet to display the current humidity (%) in the city or the current location
 - a city name label linked to an @IBOutlet to display the name of the city 
 
+
 Light & Dark modes effects : 
 
 ![Capture d’écran 2023-01-03 à 04 35 20](https://user-images.githubusercontent.com/74780897/210297023-8c257142-a231-43d6-b9e3-f7ad9ca42b6e.png)
@@ -31,6 +32,10 @@ Here is an example of the JSON response given by OpenWeather API when fetching t
 
 ![Capture d’écran 2023-01-03 à 04 23 18](https://user-images.githubusercontent.com/74780897/210296360-1954016e-ed64-494d-9877-cd4dc58cb63e.png)
 
+
+Here is what I get on my app for Bali : 
+
+![Capture d’écran 2023-01-03 à 05 19 05](https://user-images.githubusercontent.com/74780897/210299604-2ac5303e-0208-4e61-9ec7-8f10af6f156b.png)
 
 
 ## What I learnt throughout this app :
