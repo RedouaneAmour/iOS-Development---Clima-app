@@ -27,7 +27,7 @@ Example of an API request model with the right units :
 https://api.openweathermap.org/data/2.5/weather?q=Bali&appid=YourAPPID&units=metric
 
 
-Here is an example of the JSON response given by OpenWeather API when I type a valid URL using my personal key : 
+Here is an example of the JSON response given by OpenWeather API when I type a valid URL using my personal key to fetch the weather conditions in Bali : 
 
 ![Capture d’écran 2023-01-03 à 04 23 18](https://user-images.githubusercontent.com/74780897/210296360-1954016e-ed64-494d-9877-cd4dc58cb63e.png)
 
@@ -39,6 +39,7 @@ Here is an example of the JSON response given by OpenWeather API when I type a v
 * How to use vector images as image assets.
 * Learn to use the UITextField to get user input. 
 * Learn about the delegate design pattern.
+* Learn about the Model-View-Controller (MVC) design pattern.
 * Swift protocols and extensions. 
 * Swift computed properties.
 * Swift closures and completion handlers.
